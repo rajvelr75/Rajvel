@@ -1,0 +1,6 @@
+# print("Hello")
+user_name=input("Enter Your USerName")
+password=input("Enter Password")
+hide="*"*(len(password))
+length=len(password)
+print(f"Hey {user_name},Your password is{hide} and your password length is{length} ")
